@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+    android:layout_margin="1dp"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:id="@+id/cards"
+    app:cardElevation="5dp"
+    app:contentPadding="20dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELLO"
+        android:id="@+id/texts"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELLOs"
+        android:layout_below="@+id/texts"
+        android:id="@+id/dest"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+</LinearLayout>
